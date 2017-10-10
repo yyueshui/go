@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769f04ac-68cd-432d-a5e3-d00e88ce8ad8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modify-string.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/iota.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="modify-string.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="modify-string.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modify-string.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="589">
@@ -49,12 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/fmt/print.go">
+      <file leaf-file-name="iota.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iota.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="255" column="5" lean-forward="false" selection-start-line="255" selection-start-column="5" selection-end-line="255" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="26" column="97" lean-forward="false" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +93,8 @@
         <option value="$PROJECT_DIR$/named-results.go" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/modify-string.go" />
+        <option value="$PROJECT_DIR$/iota.go" />
+        <option value="$PROJECT_DIR$/array.go" />
       </list>
     </option>
   </component>
@@ -94,7 +111,9 @@
     <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -149,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run modify-string.go">
+  <component name="RunManager" selected="Go Single File.go run array.go">
     <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -166,6 +185,18 @@
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/modify-string.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run iota.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/iota.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run array.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/array.go" />
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -247,16 +278,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Single File.go run named-results.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Single File.go run modify-string.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run array.go" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run modify-string.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run named-results.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run array.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run iota.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run modify-string.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run named-results.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -392,10 +427,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/iota.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="97" lean-forward="false" selection-start-line="26" selection-start-column="97" selection-end-line="26" selection-end-column="97" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modify-string.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
