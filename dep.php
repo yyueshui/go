@@ -19,7 +19,8 @@
 	// Run the commands for output
 	$output = '';
 	$mima = trim(shell_exec('echo $MIMA'));
-	if($_GET['mima'] == $mima) {
+	var_dump($mima);
+	if($_GET['mima'] && $_GET['mima'] == $mima) {
 		foreach($commands AS $command){
 			// Run it
 			$tmp = shell_exec($command);
