@@ -8,8 +8,8 @@
 	 */
 	// The commands
 	$commands = array(
-		'echo $PWD',
-		'whoami',
+		// 'echo $PWD',
+		// 'whoami',
 		'git pull',
 		'git status',
 		'git submodule sync',
@@ -19,11 +19,7 @@
 
 	// Run the commands for output
 	$output = '';
-	$mima = trim(shell_exec('echo $MIMA'));
-	$mima2 = shell_exec('echo $MIMA');
-	var_dump($mima);
-	var_dump($mima2);
-	if($_GET['mima'] && $_GET['mima'] == $mima) {
+
 		foreach($commands AS $command){
 			// Run it
 			$tmp = shell_exec($command);
@@ -31,7 +27,6 @@
 			$output .= "<span style=\"color: #6BE234;\">\$</span> <span style=\"color: #729FCF;\">{$command}\n</span>";
 			$output .= htmlentities(trim($tmp)) . "\n";
 		}
-	}
 	// Make it pretty for manual user access (and why not?)
 ?>
 <!DOCTYPE HTML>
