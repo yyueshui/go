@@ -16,10 +16,13 @@
 		'git submodule update',
 		'git submodule status',
 	);
+
 	// Run the commands for output
 	$output = '';
 	$mima = trim(shell_exec('echo $MIMA'));
+	$mima2 = shell_exec('echo $MIMA');
 	var_dump($mima);
+	var_dump($mima2);
 	if($_GET['mima'] && $_GET['mima'] == $mima) {
 		foreach($commands AS $command){
 			// Run it
